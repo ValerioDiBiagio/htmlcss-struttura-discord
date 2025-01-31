@@ -46,4 +46,34 @@ padding: 10px;
     border: 1px solid black
 }
 
+/* main */
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: grey;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+main > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* DA RIMUOVERE */
+ 
+.debug .row {
+    height: 300px;
+    background-color: chartreuse;
+  }
 
