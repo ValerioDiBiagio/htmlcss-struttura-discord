@@ -61,8 +61,10 @@ padding: 10px;
 }
 
 .container {
-    width: 400px;
+    width: 1400px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 main > section {
@@ -73,7 +75,32 @@ main > section {
 /* DA RIMUOVERE */
  
 .debug .row {
-    height: 300px;
+    height: 496px;
     background-color: chartreuse;
-  }
+    flex-direction: column;
+    width: 710px;
+}
 
+/* sezioni varie */
+
+.row2 {
+    flex-direction: column;
+    width: 480px;
+    background-color: brown;
+}
+
+.reverse {
+    order: -1;
+}
+
+.rowsmall {
+    height: 400px;
+    width: 910px;
+    background-color: blueviolet;
+}
+
+.rowbig {
+    height: 895px;
+    width: 1200px;
+    background-color: rgb(186, 224, 13);
+}
