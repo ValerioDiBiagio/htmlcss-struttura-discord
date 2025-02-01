@@ -1,3 +1,3 @@
 # Struttura Discord
 
-Esercitazione su layout Discord con uso di HTML e CSS.
+Esercitazione su layout Discord con l'uso di HTML e CSS.
