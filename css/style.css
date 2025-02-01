@@ -65,7 +65,6 @@ padding: 10px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    
 }
 
 main > section {
@@ -106,7 +105,13 @@ main > section {
     background-color: rgb(186, 224, 13);
 }
 
-/* footer */
+/* footer prima parte*/
+
+footer > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
 
 .bg-darkgray {
     background-color: green;
@@ -134,4 +139,25 @@ main > section {
     flex-direction: column;
     border: 1px solid black;
     background-color: rgb(91, 31, 160);
+}
+
+/* footer seconda parte */
+
+.banner {
+ height: 80px;
+ width: 1200px;
+ background-color: aquamarine;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    background-color: beige;
 }
