@@ -110,3 +110,36 @@ main > section {
     background-color: #228b22;
     border: 2px dashed #000000;
 }
+
+.first {
+    height: 580px;
+    width: 300px;
+    background-color: #f08080;
+    border: 2px dashed #000000;
+}
+
+.second {
+    height: 580px;
+    width: 800px;
+    background-color: #20b2aa;
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    width: 200px;
+    border: 2px dashed #ffffff;
+}
+
+.bg-darkgray {
+    background-color: #23272a;
+}
+
+.bg-darkgray  .fcontainer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+hr {
+    color: #9a9a9a;
+}
