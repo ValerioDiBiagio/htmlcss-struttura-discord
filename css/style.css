@@ -17,13 +17,10 @@ header {
 
 /* menu navigazione */
 
-
-.navigation {
+.fcontainer {
     width: 1100px;
     margin: 0 auto;
-    background-color:#daa520;
     display: flex;
-    justify-content: space-between;
 }
 
 .nav-item-link {
@@ -46,6 +43,10 @@ header {
     border: 2px dashed black
 }
 
+header .fcontainer {
+    background-color: #daa520;
+}
+
 /* main */
 
 .bg-blue {
@@ -61,10 +62,8 @@ header {
 }
 
 .container {
-    width: 1400px;
+    width: 1100px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
 }
 
 main > section {
@@ -74,96 +73,33 @@ main > section {
 
 /* DA RIMUOVERE */
  
-.debug .row {
-    height: 496px;
-    background-color:#1e90ff ;
-    flex-direction: column;
-    width: 710px;
-    border: 2px dashed black
+ .debug .row {
+    height: 500px;
 }
 
-/* sezioni varie */
+/* Sezioni main */
 
-.row2 {
-    flex-direction: column;
-    width: 480px;
-    background-color: #ffc0cb;
-    border: 2px dashed black
-}
-
-.reverse {
-    order: -1;
-}
-
-.rowsmall {
-    height: 400px;
+.bg-blue > .container {
     width: 910px;
-    background-color:#ee82ee ;
-    border: 2px dashed black
+    border: 2px dashed black;
+}
+
+.bg-blue .container .row {
+    background-color: #ee82ee;
 }
 
 .rowbig {
-    height: 895px;
-    width: 1200px;
-    background-color: #228b22;
-    border: 2px dashed black
-}
-
-/* footer prima parte*/
-
-footer > section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.bg-darkgray {
-    background-color: #23272a;
-}
-
-.rowfooter {
-    height: 576px;
-    width: 1200px;
-    margin-top: 5px;
-    display: flex;
-    border-right: 2px dashed black;
-    border-bottom: 2px dashed black;
-    border-top: 2px dashed black;
-}
-
-.rowf1 {
-    display: flex;
-    flex-direction: column;
-    width: 360px;
+    width: 700px;
+    background-color: #1e90ff;
     border: 2px dashed black;
-    background-color: #f08080;
 }
 
-.rowf2 {
-    display: flex;
-    width: 210px;
-    flex-direction: column;
-    border-right: 2px dashed #d3d3d3;
-    background-color: #20b2aa;
+.rowsmall {
+    width: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed #000000;
 }
 
-/* footer seconda parte */
-
-.banner {
-    height: 80px;
-    width: 1200px;
-    background-color: #7fffd4;
-}
-
-.banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-button {
-    width: 70px;
-    height: 30px;
-    background-color: #ffb6c1;
-    border: 2px dashed black
+.bg-gray .rowsmall {
+    order: -1;
 }
