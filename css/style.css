@@ -103,3 +103,10 @@ main > section {
 .bg-gray .rowsmall {
     order: -1;
 }
+
+.row2 {
+    height: 900px;
+    width: 1100px;
+    background-color: #228b22;
+    border: 2px dashed #000000;
+}
